@@ -34,7 +34,7 @@ function App() {
             </p>
         </div>
 
-        <div>
+        <div className='Basictable'>
                 <BasicTable className="Table_Basic"></BasicTable>
 
         </div>

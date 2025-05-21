@@ -8,11 +8,13 @@
 
 }
 .Title{font-size: 80px;
-margin-top: 4px;}
+margin-top: 0px;
+justify-self:flex-start;}
 .Alles {
  color: white;
-  margin: 8px;
+  margin: 0px;
   align-content: center;
+  
 }
 
 .Iframe {
@@ -22,6 +24,7 @@ margin-top: 4px;}
   flex-wrap: wrap; /* Allow wrapping */
   gap: 8px;
   align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .Iframe iframe {
@@ -33,7 +36,7 @@ margin-top: 4px;}
   margin-top: 0px;
   color: white;
 
-  padding: 4px;
+  padding: 0px;
   padding-top: 0px;
   font-size: clamp(1rem, 12vw, 2.5rem); /* responsive font size */
   max-width: 100%;
@@ -53,7 +56,7 @@ margin-top: 4px;}
   height: auto;
   aspect-ratio: 485 / 402; /* Preserve original ratio */
   border: none;
-  padding: 4px;
+  padding: 0px;
 }
 
 
@@ -77,10 +80,13 @@ html, body {
 .Feedback {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
    
   
    
   gap: 8px;                /* Optional: spacing between cards */
 }
+.Basictable{display: flex;
+  flex-direction: row;
+  justify-content: flex-start;}

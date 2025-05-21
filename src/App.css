@@ -1,0 +1,85 @@
+.Retro{
+  
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: cursiv;
+  
+
+
+}
+.Title{font-size: 80px;
+margin-top: 4px;}
+.Alles {
+ color: white;
+  margin: 8px;
+  align-content: center;
+}
+
+.Iframe {
+  color: black;
+  margin:0px;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.Iframe iframe {
+  flex-shrink: 0; /* Prevent iframe from shrinking */
+}
+
+/* Make text container flexible */
+.Nerds {
+  margin-top: 0px;
+  color: white;
+
+  padding: 4px;
+  padding-top: 0px;
+  font-size: clamp(1rem, 12vw, 2.5rem); /* responsive font size */
+  max-width: 100%;
+  flex: 1; /* Let it take up remaining space */
+  max-width: 970px; /* Prevents it from getting too narrow */
+  min-width: 485px;
+  
+  align-self: flex-start;
+
+}
+.Iframe_Scratch{
+
+
+  display: block;
+  min-width: 485px;
+  max-width: 970px;
+  height: auto;
+  aspect-ratio: 485 / 402; /* Preserve original ratio */
+  border: none;
+  padding: 4px;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  background-color: black;
+  
+}
+
+.Table_Basic{
+  margin: 20px;
+  
+}
+.wow {
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  
+}
+.Feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   
+  flex-wrap: wrap;  /* Wichtig: Karten dürfen umbrechen */
+   
+  gap: 16px;                /* Optional: spacing between cards */
+}

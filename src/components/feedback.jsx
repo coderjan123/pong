@@ -18,7 +18,7 @@ export default function Feedback() {
     <Card
       className="feedback"
       sx={{margin: "16px", marginLeft: "4px", backgroundColor: 'rgb(60, 60, 60)',
-            transition: 'background-color 0.3s ease', maxWidth: 495,height: "400px",display:"flex",flexDirection:"column",
+            transition: 'background-color 0.3s ease', maxWidth: 495,height: "clamp(10rem, 28vw, 200rem)",display:"flex",flexDirection:"column",
 
     '&:hover': {
       animationTimeline: "5s",

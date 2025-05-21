@@ -30,7 +30,7 @@ export default function Feedback() {
         justifyContent: "space-between",
         '&:hover': {
           backgroundColor: 'rgb(99, 99, 99)', 
-        },border: "2px solid red"
+        },
       }}
     >
       <CardContent sx={{ flexGrow: 1 }}>

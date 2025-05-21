@@ -18,7 +18,7 @@ export default function Feedback() {
     <Card
       className="feedback"
       sx={{margin: "16px", marginLeft: "4px", backgroundColor: 'rgb(60, 60, 60)',
-            transition: 'background-color 0.3s ease', maxWidth: 495,height: "clamp(10rem, 28vw, 200rem)",display:"flex",flexDirection:"column",
+            transition: 'background-color 0.3s ease', width: 495,minHeight: 495,display:"flex",flexDirection:"column",justifyContent:"space-between",
 
     '&:hover': {
       animationTimeline: "5s",
@@ -33,11 +33,11 @@ export default function Feedback() {
           <StarIcon style={{ fontSize: 64 }} />
           <StarIcon style={{ fontSize: 64 }} />
         </div>
-        <Typography component="div" sx={{ fontSize: 'clamp(1rem, 1.5vw, 2rem)' }}>
+        <Typography component="div" sx={{ fontSize: 24 }}>
           3 Nervliche zusammenbrüche bei der Lego-suche wurden beobachtet. Dennoch überzeugt das Projekt durch die konsequente Integration von LEGO-Elementen – ein klarer Pluspunkt. Geeignet für Kinder ab 6. 
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions  sx={{alignSelf:'flex-end'}}>
         <Button size="small" onClick={getgood} sx={{alignSelf:'flex-end'}}>
           Dont like This?
         </Button>

@@ -19,7 +19,7 @@ export default function Feedback2() {
       className="feedback"
       sx={{margin: "16px", marginLeft: "4px", backgroundColor: 'rgb(60, 60, 60)',display:"flex",flexDirection:"column",
 
-            transition: 'background-color 0.3s ease', maxWidth: 495,height: "clamp(10rem, 28vw, 200rem)", 
+            transition: 'background-color 0.3s ease',width: 495,minHeight: 495, justifyContent:"space-between",
 
     '&:hover': {
       animationTimeline: "5s",
@@ -34,11 +34,11 @@ export default function Feedback2() {
           <StarIcon style={{ fontSize: 64, color: 'gold' }} />
           <StarIcon style={{ fontSize: 64, color: 'gold' }} />
         </div>
-        <Typography component="div" sx={{ fontSize: 'clamp(1rem, 1.5vw, 2rem)' }}>
+        <Typography component="div" sx={{ fontSize: 24}}>
         Mochte die Lego-Element. Weiß nun was "LEGO" bedeutet. Habe außerdem gelernt zu lesen. Würde es weiterempfehlen!
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{ justifyContent: 'flex-end' }}>
         <Button size="small" onClick={getgood} sx={{alignSelf:"flex-end"}}>
           Dont like This?
         </Button>

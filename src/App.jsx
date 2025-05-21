@@ -42,6 +42,9 @@ function App() {
         <Feedback ></Feedback>
         <Feedback2></Feedback2>
         </div>
+        <div className='joke'>
+          <p>Diese Website ist humorvoll gemeint und entstand aus dem Versuch, weniger zu prokrastinieren. Bitte nicht zu ernst nehmen.</p>
+        </div>
 </div>
   )
 }

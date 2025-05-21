@@ -20,7 +20,7 @@ export default function Feedback() {
         transition: 'background-color 0.3s ease',
         minWidth: 495,
         flexBasis: "495px",
-        maxWidth:700,
+        maxWidth:720,
         flexGrow: 1,
         flexShrink:1,
        

@@ -38,7 +38,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 export default function BasicTable() {
   return (
     <TableContainer component={Paper} sx={{
-    width: '100%',
+    
     overflowX: 'hidden',
     overflowY: 'hidden',
     maxWidth: "1455px",
